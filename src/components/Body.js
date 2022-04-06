@@ -1,10 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 export const Body = () => {
     return (
         <div className='contenedor-body'>
 
             <div className='cont-educa'>
+                <h1>FRONTEND WEB DEVELOPER</h1>
+                <br />
                 <h2>Educación</h2>
                 <h4>Medica Veterinaria</h4>
                 <p>Universidad de La Salle</p>
@@ -25,14 +29,25 @@ export const Body = () => {
                 <hr />
 
                 <h4>Proyectos</h4>
-                <ul>
-                    <li>https://adrianamariaruiz.github.io/grapeApp/</li>
-                    <li>https://adrianamariaruiz.github.io/app-dogs/</li>
-                    <li>https://adrianamariaruiz.github.io/smoothie-app/</li>
-                    <li>https://adrianamariaruiz.github.io/react-gifexpertapp/</li>
-                    <li>https://adrianamariaruiz.github.io/App_API_paises/</li>
-
-                </ul>
+                <nav>
+                    <ul>
+                        <li>
+                            <Link to='https://adrianamariaruiz.github.io/grapeApp/'>grapeApp</Link>
+                        </li>
+                        <li>
+                            <Link to='https://adrianamariaruiz.github.io/app-dogs/'>app-dog</Link>
+                        </li>
+                        <li>
+                            <Link to='https://adrianamariaruiz.github.io/smoothie-app/'>smoothie-app</Link>
+                        </li>
+                        <li>
+                            <Link to='https://adrianamariaruiz.github.io/react-gifexpertapp/'>react-gifexpertapp</Link>
+                        </li>
+                        <li>
+                            <Link to='https://adrianamariaruiz.github.io/App_API_paises/'>App_API_paises</Link>
+                        </li>
+                    </ul>
+                </nav>
 
             </div>
 

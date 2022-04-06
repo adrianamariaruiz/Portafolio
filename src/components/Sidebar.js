@@ -31,7 +31,7 @@ export const Sidebar = () => {
 
                 <div>
                     <p>adriannaruiz24@hotmail.com</p>
-                    <span> correo persona </span>
+                    <span> correo personal </span>
                 </div>
                 <hr />
 
@@ -43,10 +43,13 @@ export const Sidebar = () => {
                         Conocimientos
                     </p>
                     <ul className='lista'>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                        <li>React</li>
+                        HTML
+                        <br />
+                        CSS
+                        <br />
+                        Javascript
+                        <br />
+                        React
                     </ul>
                 </div>
             </div>
