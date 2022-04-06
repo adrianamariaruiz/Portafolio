@@ -114,6 +114,10 @@ span {
   color: rgb(69, 68, 68);
 }
 
+.activa {
+  color: black;
+  text-decoration: none;
+}
 
 .contenedor-body hr {
   width: 50%;

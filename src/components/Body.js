@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 
 export const Body = () => {
@@ -15,7 +15,7 @@ export const Body = () => {
                 <span>Caldas(Antioquia)-Colombia</span>
                 <hr />
 
-                <h4>Inlges</h4>
+                <h4>Ingles</h4>
                 <p>Curso en Colombo Americano</p>
                 <span>Medellin-Colombia</span>
                 <hr />
@@ -30,21 +30,21 @@ export const Body = () => {
 
                 <h4>Proyectos</h4>
                 <nav>
-                    <ul>
+                    <ul className='lista-proyectos'>
                         <li>
-                            <Link to='https://adrianamariaruiz.github.io/grapeApp/'>grapeApp</Link>
+                            <NavLink to='/grapeApp/' className='activa'>grapeApp</NavLink>
                         </li>
                         <li>
-                            <Link to='https://adrianamariaruiz.github.io/app-dogs/'>app-dog</Link>
+                            <NavLink to='/app-dogs/' className='activa'>app-dog</NavLink>
                         </li>
                         <li>
-                            <Link to='https://adrianamariaruiz.github.io/smoothie-app/'>smoothie-app</Link>
+                            <NavLink to='/smoothie-app/' className='activa'>smoothie-app</NavLink>
                         </li>
                         <li>
-                            <Link to='https://adrianamariaruiz.github.io/react-gifexpertapp/'>react-gifexpertapp</Link>
+                            <NavLink to='/react-gifexpertapp/' className='activa'>react-gifexpertapp</NavLink>
                         </li>
                         <li>
-                            <Link to='https://adrianamariaruiz.github.io/App_API_paises/'>App_API_paises</Link>
+                            <NavLink to='/App_API_paises/' className='activa'>App_API_paises</NavLink>
                         </li>
                     </ul>
                 </nav>
