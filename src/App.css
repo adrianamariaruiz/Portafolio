@@ -1,38 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
 .App {
-  text-align: center;
+  /* background-color: paleturquoise; */
+  width: 100vw;
+  margin: 0px;
+  font-family: 'Overpass', sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  width: 100vw;
+  height: 80px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar p {
+  padding-left: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contenedor-sidebar-body {
+  /* border-style: solid; */
+  /* background-color: plum; */
+  height: auto;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.contenedor-sidebar {
+  /* border-style: solid; */
+  background-color: rgba(251, 167, 195, 0.34);
+  width: 50vw;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.mifoto {
+  height: auto;
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 8px 5px 8px rgba(0, 0, 0, 0.317);
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cont-info {
+  font-size: 18px;
+  /* border-style: solid; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+hr {
+  width: 150px;
+  border-color: fuchsia;
+  margin-top: 20px;
+}
+
+span {
+  font-size: 16px;
+  /* background-color: aquamarine; */
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.cont-conocimientos {
+  /* border-style: solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p-conoc {
+  /* border-style: solid; */
+  margin-bottom: 0px;
+}
+
+.lista {
+  /* background-color: cornflowerblue; */
+  width: 100px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.contenedor-body {
+  /* border-style: solid; */
+  /* background-color: palegoldenrod; */
+  width: 100vw;
+  height: auto;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cont-educa {
+  width: 80%;
+  height: 100%;
+}
+
+.cont-educa span {
+  color: rgb(69, 68, 68);
+}
+
+.contenedor-body hr {
+  width: 50%;
+  margin-left: 0px;
+}
+
+.contenedor-body h4 {
+  /* background-color: burlywood; */
+  margin-bottom: 10px;
+}
+
+.contenedor-body p {
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+.contenedor-body span {
+  margin-top: 0px;
 }
