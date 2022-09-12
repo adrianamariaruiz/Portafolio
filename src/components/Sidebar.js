@@ -30,7 +30,7 @@ export const Sidebar = () => {
                 <hr />
 
                 <div>
-                    <p>adriannaruiz24@hotmail.com</p>
+                    <p>adriannaruiz24@gmail.com</p>
                     <span> correo personal </span>
                 </div>
                 <hr />

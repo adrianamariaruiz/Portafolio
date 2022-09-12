@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 
 export const Body = () => {
@@ -31,6 +31,12 @@ export const Body = () => {
                 <h4>Proyectos</h4>
                 <nav>
                     <ul className='lista-proyectos'>
+                        <li>
+                            <NavLink to='/BOG005-data-lovers/src/' className='activa'>data-lover</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to='/card-validation.github.io/src/' className='activa'>card-validation</NavLink>
+                        </li>
                         <li>
                             <NavLink to='/grapeApp/' className='activa'>grapeApp</NavLink>
                         </li>
