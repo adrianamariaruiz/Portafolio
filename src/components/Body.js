@@ -9,23 +9,31 @@ export const Body = () => {
             <div className='cont-educa'>
                 <h1>FRONTEND WEB DEVELOPER</h1>
                 <br />
-                <h2>Educación</h2>
-                <h4>Medica Veterinaria</h4>
-                <p>Universidad de La Salle</p>
-                <span>Caldas(Antioquia)-Colombia</span>
-                <hr />
 
-                <h4>Ingles</h4>
-                <p>Curso en Colombo Americano</p>
-                <span>Medellin-Colombia</span>
+                <h2>Educación</h2>
+                <h4>Desarrolladora Frontend</h4>
+                <p>Laboratoria</p>
+                <span>Colombia</span>
                 <hr />
 
                 <h4>UDEMY</h4>
                 <ul>
                     <li>Programacion para principiantes - Primeros pasos (Fernando Herrera)</li>
+                    <li>Boostrap 5 desde cero + HTML, CSS, Flexbox, Sass, GIT, JS (Ignacio Bluuweb)</li>
                     <li>Visual Studio Code: Mejora tu velocidad para codificar (Fernando Herrera)</li>
                     <li>React: De cero a experto / hooks y MERN (Fernando Herrera)</li>
+                    <li>React JS desde cero! Hooks, Redux, context, firebase y más! (Ignacio Bluuweb)</li>
                 </ul>
+                <hr />
+
+                <h4>Medica Veterinaria</h4>
+                <p>Universidad de La Salle</p>
+                <span>Caldas(Antioquia)-Colombia</span>
+                <hr />
+
+                <h4>Bachillerato</h4>
+                <p>Colegio El Fontán</p>
+                <span>Medellin-Colombia</span>
                 <hr />
 
                 <h4>Proyectos</h4>
@@ -54,6 +62,19 @@ export const Body = () => {
                         </li>
                     </ul>
                 </nav>
+                <hr />
+
+                <h4>Experiencia laboral</h4>
+                <p>Arte-Laser corte y grabado</p>
+                <p>Realicé cotizaciones de los trabajos, diseño gráfico y manejo de maquinaria laser</p>
+                <p>Trabajé 1.5 años</p>
+                <span>Medellin-Colombia</span>
+                <hr />
+
+                <h4>Ingles</h4>
+                <p>Curso en Colombo Americano</p>
+                <span>Medellin-Colombia</span>
+                <hr />
 
             </div>
 
