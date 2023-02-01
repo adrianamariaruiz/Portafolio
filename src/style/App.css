@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Shadows+Into+Light&display=swap');
+
+.App {
+  width: 100%;
+  height: auto;
+  background-color: rgb(211, 211, 211);
+  font-family: 'Overpass', sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Body section */
+.contenedor-body {
+  width: 60%;
+  height: auto;
+  padding-top: 50px;
+  background-color: white;
+  margin-left: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cont-educa {
+  width: 80%;
+  height: 100%;
+}
+
+.cont-educa h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.cont-educa span {
+  color: rgb(69, 68, 68);
+  margin-top: 5px;
+}
+
+.linkText {
+  color: black;
+  text-decoration: none;
+}
+
+.contenedor-body hr {
+  width: 50%;
+  margin-left: 0px;
+}
+
+.contenedor-body h4 {
+  margin-bottom: 10px;
+}
+
+.contenedor-body p {
+  margin-top: 0px;
+  margin-bottom: 0;
+}

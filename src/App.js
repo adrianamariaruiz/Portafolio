@@ -1,19 +1,23 @@
-import './App.css';
-import { Body } from './components/Body';
-// import { Navbar } from './components/Navbar';
-import { Sidebar } from './components/Sidebar';
+import { Route, Routes } from 'react-router-dom';
+
+import './style/App.css';
+import './style/Navbar.css';
+import './style/Sidebar.css';
+import './style/Projects.css';
+
+
+import Home from './Routes/Home';
+import Projects from './Routes/Projects';
+
 
 function App() {
   return (
-    <div className="App">
-      {/* <Navbar /> */}
-
-      <div className="contenedor-sidebar-body">
-        <Sidebar />
-        <Body />
-      </div>
-
-    </div>
+   <>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/projects' element={<Projects/>}/>
+      </Routes>
+   </>
   );
 }
 

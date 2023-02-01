@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Shadows+Into+Light&display=swap');
+
+.cont-educa h2 {
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.imagesProjects{
+    height: auto;
+    width: 90%;
+    border: solid 1px rgb(209, 209, 209);
+    box-shadow: 5px 5px 5px rgb(214, 186, 191);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.lista-proyectos li{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.enlaces{
+    font-size: 14px;
+}
+
+.linksProjects{
+    text-decoration: none;
+    color: black;
+}
+
+.linksProjects:hover{
+    color: fuchsia;
+}

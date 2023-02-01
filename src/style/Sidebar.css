@@ -1,0 +1,74 @@
+
+/* Sidebar */
+.contenedor-sidebar-body {
+    /* border: solid 1px rgb(128, 255, 9); */
+    padding: 10px 40px;
+    height: auto;
+    width: auto;
+    display: flex;
+  }
+  
+  .contenedor-sidebar {
+    background-color: rgb(252, 200, 217);
+    width: 40%;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px;
+  }
+  
+  .miFoto {
+    height: auto;
+    width: 140px;
+    border-radius: 20px;
+    box-shadow: 8px 5px 8px rgba(0, 0, 0, 0.317);
+    display: flex;
+  }
+  
+  .cont-info {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  hr {
+    width: 180px;
+    border-color: fuchsia;
+    margin-top: 10px;
+  }
+  
+  .about{
+    padding: 10px 30px;
+  }
+  
+  .cont-conocimientos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .p-conoc {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .lista {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    list-style: none;
+  }
+  
+  .iconEnglish {
+    color: fuchsia;
+    margin-right: 10px;
+  }
