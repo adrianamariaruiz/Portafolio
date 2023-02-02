@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.718ffb28.css",
+    "main.js": "./static/js/main.29799005.js",
+    "static/media/foto.jpg": "./static/media/foto.95c13b4aa546c7623531.jpg",
+    "static/media/gifExpertApp.jpg": "./static/media/gifExpertApp.e570da61a08398fda126.jpg",
+    "static/media/smoothieApp.jpg": "./static/media/smoothieApp.b36881493065c465cbb7.jpg",
+    "static/media/dataLover.jpg": "./static/media/dataLover.55bbf072658f2f2e0337.jpg",
+    "static/media/movieApp.jpg": "./static/media/movieApp.bf736c4080a593d9d2d8.jpg",
+    "static/media/apiPaises.jpg": "./static/media/apiPaises.76899cb6d23a90d02aba.jpg",
+    "static/media/burgerQueen.jpg": "./static/media/burgerQueen.8f3bf996a7cc81a20801.jpg",
+    "static/media/todoApp.jpg": "./static/media/todoApp.2e3ca83d5c315d847f64.jpg",
+    "static/media/socialNetwork.jpg": "./static/media/socialNetwork.1fdf02d51fe98accca30.jpg",
+    "static/media/labNotes.jpg": "./static/media/labNotes.30964dd8849e83bb4181.jpg",
+    "static/media/cardValidation.jpg": "./static/media/cardValidation.3f2d01dd209451170225.jpg",
+    "static/media/triqui.jpg": "./static/media/triqui.d8d6922e3d6464950b1e.jpg",
+    "index.html": "./index.html",
+    "main.718ffb28.css.map": "./static/css/main.718ffb28.css.map",
+    "main.29799005.js.map": "./static/js/main.29799005.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.718ffb28.css",
+    "static/js/main.29799005.js"
+  ]
+}
