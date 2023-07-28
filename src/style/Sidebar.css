@@ -1,16 +1,13 @@
-
 /* Sidebar */
-.contenedor-sidebar-body {
-    /* border: solid 1px rgb(128, 255, 9); */
+.container__sidebar--body {
     padding: 10px 40px;
     height: auto;
     width: auto;
     display: flex;
   }
   
-  .contenedor-sidebar {
-    background-color: rgb(252, 200, 217);
-    width: 40%;
+  .container__sidebar {
+    width: 30%;
     height: auto;
     margin-right: 20px;
     border-radius: 5px;
@@ -18,57 +15,99 @@
     flex-direction: column;
     align-items: center;
     padding: 30px 10px;
+    background-color: #413C69;
+    border: solid 1px rgb(209, 209, 209, 0.5);
+    box-shadow: 0px 0px 10px rgb(214, 186, 191);
   }
   
-  .miFoto {
+  .myphoto {
     height: auto;
     width: 140px;
     border-radius: 20px;
-    box-shadow: 8px 5px 8px rgba(0, 0, 0, 0.317);
+    box-shadow: 2px 2px 5px rgb(209, 209, 209, 0.5);
     display: flex;
   }
   
-  .cont-info {
-    font-size: 18px;
+  .container__info {
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 100%;
   }
+
+  .container__info span{
+    color: #eab9c98e;
+    font-size: 16px;
+    margin-top: -14px;
+    margin-bottom: 20px;
+  }
+
+  .container__info h2{
+    color: #EAB9C9;
+  }
+
+  .container__info--p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #EAB9C9;
+  }
+
+  .container__info--p a{
+    color: #EAB9C9;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .container__info--p a:hover {
+    color: #f76696;
+  }
+
+  .container__info--cont a:hover{
+    color: #EAB9C9;
+  }  
   
   hr {
     width: 180px;
-    border-color: fuchsia;
-    margin-top: 10px;
+    border-color: #EAB9C9;
   }
   
-  .about{
-    padding: 10px 30px;
+  .container__info--text{
+    font-size: 16px;
+    padding: 0px 30px;
+    text-decoration: none;
+    color: white;
   }
   
-  .cont-conocimientos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .p-conoc {
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-  
-  .lista {
-    width: 100px;
+  .container__knowledge--list {
+    width: 90%;
     height: auto;
-    margin-top: 10px;
     padding-left: 10px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    gap: 5px;
-    list-style: none;
+    gap: 0px 10px;
+  }
+
+  .container__knowledge--list p{
+    font-size: 16px;
+    display: flex;
+    background-color: rgb(209, 209, 209, 0.5);
+    border-radius: 5px;
+    padding: 4px 10px 0px 10px;
   }
   
   .iconEnglish {
-    color: fuchsia;
-    margin-right: 10px;
+    color: #EAB9C9;
+    cursor: pointer;
   }
+
+  .container__info--cont a{
+    padding: 0 15px;
+  }  
+
+@media screen and (max-width: 1024px){
+  .container__sidebar{
+    width: 40%;
+  }
+}

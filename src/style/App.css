@@ -4,56 +4,82 @@
 .App {
   width: 100%;
   height: auto;
-  background-color: rgb(211, 211, 211);
+  background-color: #162447;
   font-family: 'Overpass', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   display: flex;
   flex-direction: column;
 }
+/* background-color: #162447; */
+/*   background-color: #413C69; */
 
 /* Body section */
-.contenedor-body {
-  width: 60%;
+.container__body {
+  color: white;
+  width: 100%;
   height: auto;
-  padding-top: 50px;
-  background-color: white;
+  padding: 20px 0px 50px;
+  border: solid 1px rgb(209, 209, 209, 0.5);
+  box-shadow: 0px 0px 10px rgb(214, 186, 191);
   margin-left: 20px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #413C69;
 }
 
-.cont-educa {
+.container__academy {
   width: 80%;
   height: 100%;
 }
 
-.cont-educa h1 {
+.container__academy h1 {
+  color: #EAB9C9;
   font-size: 40px;
   text-align: center;
 }
 
-.cont-educa span {
-  color: rgb(69, 68, 68);
+.container__academy h2, h4{
+  color: #EAB9C9;
+}
+
+.container__academy span {
+  color: rgb(207, 206, 206);
   margin-top: 5px;
 }
 
 .linkText {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
-.contenedor-body hr {
+.container__academy a{
+  color: white;
+  font-size: 18px;
+}
+
+.container__body hr {
   width: 50%;
   margin-left: 0px;
 }
 
-.contenedor-body h4 {
+.container__body h4 {
   margin-bottom: 10px;
 }
 
-.contenedor-body p {
+.container__body p {
   margin-top: 0px;
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px){
+  .container__body {
+    padding: 50px 0px;
+  }
+
+  .container__academy {
+    width: 95%;
+    padding: 0px 5px;
+  }
 }

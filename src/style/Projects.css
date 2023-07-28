@@ -1,33 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Shadows+Into+Light&display=swap');
-
-.cont-educa h2 {
+.container__academy h2 {
     text-align: center;
-    font-family: 'Patrick Hand', cursive;
+}
+
+.container__imagesProjects{
+    min-height: 250px;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imagesProjects{
     height: auto;
-    width: 90%;
-    border: solid 1px rgb(209, 209, 209);
-    box-shadow: 5px 5px 5px rgb(214, 186, 191);
-    border-radius: 10px;
-    padding: 5px;
+    width: 100%;
+    cursor: pointer;
 }
 
-.lista-proyectos li{
+.list__projects{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.list__projects > div{
     list-style: none;
     margin-top: 20px;
+    padding: 10px;
+    width: 45%;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px rgb(214, 186, 191);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.151);
 }
 
-.enlaces{
-    font-size: 14px;
-}
-
-.linksProjects{
+.projects__links{
     text-decoration: none;
-    color: black;
+    margin-bottom: 10px;
+    font-size: 24px;
 }
 
-.linksProjects:hover{
-    color: fuchsia;
+.projects__links:hover, .repo__links:hover{
+    color: #EAB9C9;
+}
+
+.container__repo--links{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.repo__links{
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 1024px){
+    .list__projects > div{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .list__projects > div{
+        width: 80%;
+    }
 }

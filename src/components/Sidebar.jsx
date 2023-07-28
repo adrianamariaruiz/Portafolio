@@ -1,73 +1,88 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLanguage } from '@fortawesome/free-solid-svg-icons'
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLanguage } from "@fortawesome/free-solid-svg-icons";
 
-import foto from '../imagen/foto.jpg';
+import myphoto from "../imagen/myphoto.png";
 
 export const Sidebar = () => {
+  
+  return (
+    <div className="container__sidebar">
+      <div className="container__img">
+        <img src={myphoto} alt="myphoto" className="myphoto" />
+      </div>
 
-    // <FontAwesomeIcon icon="fa-solid fa-language" />
-    // <FontAwesomeIcon icon="fa-solid fa-file" />
+      <div className="container__info">
+        <h2>Adriana M. Ruiz Henao</h2>
+        <span>Desarrolladora Frontend</span>
+        <hr />
 
-    return (
-        <div className='contenedor-sidebar'>
-            <div className='cont-img'>
-                <img
-                    src={foto}
-                    alt='Foto'
-                    className='miFoto'
-                />
-            </div>
-            
-            <div className='cont-info'>
-                <h2>
-                    Adriana M. Ruiz Henao
-                </h2>
-                <hr />
+        <p className="container__info--p">Sobre mi</p>
+        <p className="container__info--text">
+          Soy una persona comprometida, responsable y con sentido de
+          pertenencia. Soy autodidacta y recursiva, por lo que busco, leo y me
+          apoyo en amigos que tengan el conocimiento del tema. Manejo una
+          comunicación asertiva por lo que suelo llevarme bien con los
+          compañeros de trabajo.
+        </p>
+        <hr />
 
-                <p className='p-conoc'>Sobre mi</p>
-                <p className='about'>
-                    Soy una persona comprometida, responsable y con sentido de pertenencia. Soy autodidacta y recursiva, por lo que busco, leo y me apoyo en amigos que tengan el conocimiento del tema.
-                    Manejo una comunicación asertiva por lo que suelo llevarme bien con los compañeros de trabajo.
-                </p>
-                <hr />
+        <p className="container__info--p"> celular </p>
+        <p className="container__info--text"> (+57) 300 391 6258 </p>
 
-                <p> (+57)-300 391 6258  </p>
-                <p className='p-conoc'> celular </p>
+        <hr />
 
-                <hr />
+        <p className="container__info--p">
+          <a href="https://www.linkedin.com/in/adriana-maria-ruiz/">LinkedIn</a>
+        </p>
+        <hr />
 
-                <div>
-                    <p>adriannaruiz24@gmail.com</p>
-                    <p className='p-conoc'> correo de contacto</p>
-                </div>
-                <hr />
-
-                <p>Antioquia - Colombia</p>
-                <hr />
-
-                <div className='cont-conocimientos'>
-                    <p className='p-conoc'>
-                        Conocimientos
-                    </p>
-                    <ul className='lista'>
-                        <li> HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                        <li>Node.js</li>
-                        <li>React</li>
-                        <li>Firebase</li>
-                        <li>Tailwind</li>
-                        <li>SCRUM</li>
-                    </ul>
-                    <hr/>
-                </div>
-                <div className='englishDiv'>
-                    <p className='p-conoc'>Inglés</p>
-                    <FontAwesomeIcon icon={faLanguage} className='iconEnglish'/>
-                    <a href='https://www.efset.org/cert/s7Wn6u' target='_blank' rel='noreferrer' className='linksProjects'>Nivel: B2</a>
-                </div>
-            </div>
+        <div>
+          <p className="container__info--p"> correo de contacto</p>
+          <p className="container__info--text">adriannaruiz24@gmail.com</p>
         </div>
-    )
-}
+        <hr />
+
+        <p className="container__info--text">Antioquia - Colombia</p>
+        <hr />
+
+        <div className="container__knowledge">
+          <p className="container__info--p">Conocimientos</p>
+          <div className="container__knowledge--list">
+            <p>HTML</p>
+            <p>Javascript</p>
+            <p>CSS</p>
+            <p>Tailwind</p>
+            <p>TypeScript</p>
+            <p>React.js</p>
+            <p>Node.js</p>
+            <p>Firebase</p>
+            <p>MySQL</p>
+            <p>GraphQL</p>
+            <p>VTEX IO</p>
+            <p>GitHub</p>
+            <p>SCRUM</p>
+          </div>
+          <hr />
+
+        </div>
+        <div className="englishDiv">
+          <p className="container__info--p">Inglés</p>
+          <div className="container__info--cont">
+            <FontAwesomeIcon icon={faLanguage} className="iconEnglish" />
+            <a
+              href="https://www.efset.org/cert/s7Wn6u"
+              target="_blank"
+              rel="noreferrer"
+              className="container__info--text"
+            >
+              Nivel: B2
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+

@@ -8,7 +8,7 @@ const Home = () => {
       <>
           <div className="App">
               <Navbar />
-              <div className="contenedor-sidebar-body">
+              <div className="container__sidebar--body">
                   <Sidebar />
                   <Body />
               </div>
