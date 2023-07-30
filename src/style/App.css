@@ -83,3 +83,17 @@
     padding: 0px 5px;
   }
 }
+
+@media screen and (max-width: 425px){
+  .container__body {
+    margin: 10px 0px;
+  }
+
+  .container__academy h1 {
+    font-size: 30px;
+  }
+
+  .container__body ul{
+    padding-left: 18px;
+  }
+}

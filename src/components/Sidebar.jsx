@@ -19,15 +19,13 @@ export const Sidebar = () => {
 
         <p className="container__info--p">Sobre mi</p>
         <p className="container__info--text">
-          Soy una persona comprometida, responsable y con sentido de
-          pertenencia. Soy autodidacta y recursiva, por lo que busco, leo y me
-          apoyo en amigos que tengan el conocimiento del tema. Manejo una
-          comunicación asertiva por lo que suelo llevarme bien con los
-          compañeros de trabajo.
+          Soy desarrolladora frontend,
+          perseverante, autodidacta, recursiva y me gusta estar en constante aprendizaje.
+          Sé trabajar en equipo con metodología SCRUM 
         </p>
         <hr />
 
-        <p className="container__info--p"> celular </p>
+        <p className="container__info--p"> Celular </p>
         <p className="container__info--text"> (+57) 300 391 6258 </p>
 
         <hr />
@@ -38,7 +36,7 @@ export const Sidebar = () => {
         <hr />
 
         <div>
-          <p className="container__info--p"> correo de contacto</p>
+          <p className="container__info--p"> Correo de contacto</p>
           <p className="container__info--text">adriannaruiz24@gmail.com</p>
         </div>
         <hr />

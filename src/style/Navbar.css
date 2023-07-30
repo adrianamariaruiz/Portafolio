@@ -2,10 +2,8 @@
 .container__navbar {
     width: auto;
     height: 80px;
-
     margin: 10px 20px;
     border-radius: 5px;
-    
     color: white;
     font-size: 28px;
     font-weight: bold;
@@ -20,4 +18,11 @@
   
   .navbarLink:hover{
     color: #EAB9C9;
+  }
+
+  @media screen and (max-width: 425px){
+    .container__navbar{
+      margin: 10px;
+      font-size: 20px;
+    }
   }

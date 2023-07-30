@@ -28,14 +28,9 @@ const Projects = () => {
               <nav>
                 <div className="list__projects">
                   <div className="list__projects--cards">
-                    <a
-                      href="https://app-rick-and-morty-graphql.netlify.app/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="projects__links"
-                    >
+                    <h3>
                       App Rick and Morty
-                    </a>
+                    </h3>
                     <div className="container__imagesProjects">
                       <a 
                         href="https://app-rick-and-morty-graphql.netlify.app/"
@@ -56,20 +51,23 @@ const Projects = () => {
                         rel="noreferrer"
                         className="repo__links"
                       >
-                        Repositorio GitHub
+                        GitHub
+                      </a>
+                      <a
+                        href="https://app-rick-and-morty-graphql.netlify.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="repo__links"
+                      >
+                        Web
                       </a>
                     </div>
                   </div>
 
                   <div className="list__projects--cards">
-                    <a
-                      href="https://juega-triqui.netlify.app/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="projects__links"
-                    >
+                    <h3>
                       Juego-triqui
-                    </a>
+                    </h3>
                     <div className="container__imagesProjects">
                     <a
                       href="https://juega-triqui.netlify.app/"
@@ -90,20 +88,23 @@ const Projects = () => {
                         rel="noreferrer"
                         className="repo__links"
                       >
-                        Repositorio GitHub
+                        GitHub
+                      </a>
+                      <a
+                        href="https://juega-triqui.netlify.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="repo__links"
+                      >
+                        Web
                       </a>
                     </div>
                   </div>
 
                   <div className="list__projects--cards">
-                    <a
-                      href="https://todo-app-react-tailwind.netlify.app/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="projects__links"
-                    >
+                    <h3>
                       Todo-app
-                    </a>
+                    </h3>                    
                     <div className="container__imagesProjects">
                       <a
                         href="https://todo-app-react-tailwind.netlify.app/"
@@ -124,20 +125,23 @@ const Projects = () => {
                         rel="noreferrer"
                         className="repo__links"
                       >
-                        Repositorio GitHub
+                        GitHub
+                      </a>
+                      <a
+                        href="https://todo-app-react-tailwind.netlify.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="repo__links"
+                      >
+                        Web
                       </a>
                     </div>
                   </div>
 
                   <div className="list__projects--cards">
-                    <a
-                      href="https://lab-notes-156fc.web.app/login"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="projects__links"
-                    >
+                    <h3>
                       Lab-notes
-                    </a>
+                    </h3>
                     <div className="container__imagesProjects">
                       <a
                         href="https://lab-notes-156fc.web.app/login"
@@ -158,20 +162,23 @@ const Projects = () => {
                         rel="noreferrer"
                         className="repo__links"
                       >
-                        Repositorio GitHub
+                        GitHub
+                      </a>
+                      <a
+                        href="https://lab-notes-156fc.web.app/login"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="repo__links"
+                      >
+                        Web
                       </a>
                     </div>
                   </div>
 
                   <div className="list__projects--cards">
-                    <a
-                      href="https://flourishing-truffle-4a186a.netlify.app/home"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="projects__links"
-                    >
+                    <h3>
                       Movie-api
-                    </a>
+                    </h3>
                     <div className="container__imagesProjects">
                     <a
                       href="https://flourishing-truffle-4a186a.netlify.app/home"
@@ -192,20 +199,23 @@ const Projects = () => {
                         rel="noreferrer"
                         className="repo__links"
                       >
-                        Repositorio GitHub
+                        GitHub
+                      </a>
+                      <a
+                        href="https://flourishing-truffle-4a186a.netlify.app/home"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="repo__links"
+                      >
+                        Web
                       </a>
                     </div>
                   </div>
 
                   <div className="list__projects--cards">
-                    <a
-                      href="https://adrianamariaruiz.github.io/BOG005-data-lovers/src/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="projects__links"
-                    >
+                    <h3>
                       data-lover
-                    </a>
+                    </h3>
                     <div className="container__imagesProjects">
                     <a
                       href="https://adrianamariaruiz.github.io/BOG005-data-lovers/src/"
@@ -226,20 +236,23 @@ const Projects = () => {
                         rel="noreferrer"
                         className="repo__links"
                       >
-                        Repositorio GitHub
+                        GitHub
+                      </a>
+                      <a
+                        href="https://adrianamariaruiz.github.io/BOG005-data-lovers/src/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="repo__links"
+                      >
+                        Web
                       </a>
                     </div>
                   </div>
 
                   <div className="list__projects--cards">
-                    <a
-                      href="https://github.com/adrianamariaruiz/BOG005-burger-queen-api-client"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="projects__links"
-                    >
+                    <h3>
                       Burger-queen-api-client
-                    </a>
+                    </h3>                 
                     <div className="container__imagesProjects">
                       <a
                         href="https://github.com/adrianamariaruiz/BOG005-burger-queen-api-client"
@@ -260,20 +273,23 @@ const Projects = () => {
                         rel="noreferrer"
                         className="repo__links"
                       >
-                        Repositorio GitHub
+                        GitHub
+                      </a>
+                      <a
+                        href="https://github.com/adrianamariaruiz/BOG005-burger-queen-api-client"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="repo__links"
+                      >
+                        Web
                       </a>
                     </div>
                   </div>
 
                   <div className="list__projects--cards">
-                    <a
-                      href="https://socialnetwork-13.firebaseapp.com/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="projects__links"
-                    >
+                    <h3>
                       social-network
-                    </a>
+                    </h3>                    
                     <div className="container__imagesProjects">
                       <a
                         href="https://socialnetwork-13.firebaseapp.com/"
@@ -294,20 +310,23 @@ const Projects = () => {
                         rel="noreferrer"
                         className="repo__links"
                       >
-                        Repositorio GitHub
+                        GitHub
+                      </a>
+                      <a
+                        href="https://socialnetwork-13.firebaseapp.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="repo__links"
+                      >
+                        Web
                       </a>
                     </div>
                   </div>
 
                   <div className="list__projects--cards">
-                    <a
-                      href="https://adrianamariaruiz.github.io/card-validation.github.io/src/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="projects__links"
-                    >
+                    <h3>
                       card-validation
-                    </a>
+                    </h3>                    
                     <div className="container__imagesProjects">
                       <a
                         href="https://adrianamariaruiz.github.io/card-validation.github.io/src/"
@@ -328,20 +347,23 @@ const Projects = () => {
                         rel="noreferrer"
                         className="repo__links"
                       >
-                        Repositorio GitHub
+                        GitHub
+                      </a>
+                      <a
+                        href="https://adrianamariaruiz.github.io/card-validation.github.io/src/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="repo__links"
+                      >
+                        Web
                       </a>
                     </div>
                   </div>
 
                   <div className="list__projects--cards">
-                    <a
-                      href="https://adrianamariaruiz.github.io/App_API_paises/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="projects__links"
-                    >
+                    <h3>
                       App_API_paises
-                    </a>
+                    </h3>
                     <div className="container__imagesProjects">
                       <a
                         href="https://adrianamariaruiz.github.io/App_API_paises/"
@@ -362,20 +384,23 @@ const Projects = () => {
                         rel="noreferrer"
                         className="repo__links"
                       >
-                        Repositorio GitHub
+                        GitHub
+                      </a>
+                      <a
+                        href="https://adrianamariaruiz.github.io/App_API_paises/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="repo__links"
+                      >
+                        Web
                       </a>
                     </div>
                   </div>
 
                   <div className="list__projects--cards">
-                    <a
-                      href="https://adrianamariaruiz.github.io/smoothie-app/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="projects__links"
-                    >
+                    <h3>
                       Smoothie-app
-                    </a>
+                    </h3>                   
                     <div className="container__imagesProjects">
                       <a
                         href="https://adrianamariaruiz.github.io/smoothie-app/"
@@ -396,20 +421,23 @@ const Projects = () => {
                         rel="noreferrer"
                         className="repo__links"
                       >
-                        Repositorio GitHub
+                        GitHub
+                      </a>
+                      <a
+                        href="https://adrianamariaruiz.github.io/smoothie-app/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="repo__links"
+                      >
+                        Web
                       </a>
                     </div>
                   </div>
 
                   <div className="list__projects--cards">
-                    <a
-                      href="https://adrianamariaruiz.github.io/react-gifexpertapp/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="projects__links"
-                    >
+                    <h3>
                       gifExpertApp
-                    </a>
+                    </h3>
                     <div className="container__imagesProjects">
                       <a
                         href="https://adrianamariaruiz.github.io/react-gifexpertapp/"
@@ -430,7 +458,15 @@ const Projects = () => {
                         rel="noreferrer"
                         className="repo__links"
                       >
-                        Repositorio GitHub
+                       GitHub
+                      </a>
+                      <a
+                        href="https://adrianamariaruiz.github.io/react-gifexpertapp/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="repo__links"
+                      >
+                        Web
                       </a>
                     </div>
                   </div>
