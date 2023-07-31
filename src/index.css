@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Shadows+Into+Light&display=swap');
 
+/* background-color: #162447 - rgb(22, 36, 71); */
+/* background-color: #413C69 - rgb(65,60,105); */
+/* background-color: #EAB9C9 - rgb(234,185,201)*/
+
+:root {
+  --color-primary: rgb(22, 36, 71);
+  --color-secondary: rgb(65,60,105);
+  --color-tertiary: rgb(234,185,201);
+  --color-tertiary-dark: rgb(250, 162, 192);
+  --color-span: #eab9c98e;
+}
+
 body {
   margin: 0;
 }

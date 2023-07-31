@@ -7,7 +7,6 @@
 }
   
 .container__sidebar {
-
   width: 40%;
   height: auto;
   margin-right: 20px;
@@ -16,8 +15,8 @@
   flex-direction: column;
   align-items: center;
   padding: 30px 10px;
-  background-color: #413C69;
-  box-shadow: 0px 0px 10px rgb(214, 186, 191);
+  background-color: var(--color-secondary);
+  box-shadow: 0px 0px 10px var(--color-tertiary);
 }
   
 .myphoto {
@@ -36,39 +35,39 @@
 }
 
 .container__info span{
-  color: #eab9c98e;
+  color: var(--color-span);
   font-size: 16px;
   margin-top: -14px;
   margin-bottom: 20px;
 }
 
 .container__info h2{
-  color: #EAB9C9;
+  color: var(--color-tertiary);
 }
 
 .container__info--p{
   font-size: 16px;
   font-weight: bold;
-  color: #EAB9C9;
+  color: var(--color-tertiary);
 }
 
 .container__info--p a{
-  color: #EAB9C9;
+  color: var(--color-tertiary);
   font-weight: bold;
   font-size: 18px;
 }
 
 .container__info--p a:hover {
-  color: #f76696;
+  color: var(--color-tertiary-dark);
 }
 
 .container__info--cont a:hover{
-  color: #EAB9C9;
+  color: var(--color-tertiary);
 }  
   
 hr {
   width: 180px;
-  border-color: #EAB9C9;
+  border-color: var(--color-tertiary);
 }
   
 .container__info--text{
@@ -98,7 +97,7 @@ hr {
 }
 
 .iconEnglish {
-  color: #EAB9C9;
+  color: var(--color-tertiary);
   cursor: pointer;
 }
 
