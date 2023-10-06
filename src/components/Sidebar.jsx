@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLanguage } from "@fortawesome/free-solid-svg-icons";
+import { faLanguage, faMobileScreen } from "@fortawesome/free-solid-svg-icons";
+import {faLinkedin} from "@fortawesome/free-brands-svg-icons";
 
 import myphoto from "../imagen/myphoto.png";
 
@@ -26,13 +27,19 @@ export const Sidebar = () => {
         <hr />
 
         <p className="container__info--p"> Celular </p>
-        <p className="container__info--text"> (+57) 300 391 6258 </p>
+        <div className="container__icon-text">
+          <FontAwesomeIcon icon={faMobileScreen} className="icons"/>
+          <p className="container__info--text"> (+57) 300 391 6258 </p>
+        </div>
 
         <hr />
 
-        <p className="container__info--p">
-          <a href="https://www.linkedin.com/in/adriana-maria-ruiz/">LinkedIn</a>
-        </p>
+        <div className="container__icon-text">
+          <FontAwesomeIcon icon={faLinkedin} className="icons iconLinkedIn"/>
+          <p className="container__info--p">
+            <a href="https://www.linkedin.com/in/adriana-maria-ruiz/">LinkedIn</a>
+          </p>
+        </div>
         <hr />
 
         <div>

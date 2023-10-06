@@ -274,7 +274,7 @@ const Projects = () => {
                         GitHub
                       </a>
                       <a
-                        href="https://github.com/adrianamariaruiz/BOG005-burger-queen-api-client"
+                        href="https://burger-queen-zeta.vercel.app/"
                         target="_blank"
                         rel="noreferrer"
                         className="repo__links"

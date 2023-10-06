@@ -16,7 +16,7 @@
   align-items: center;
   padding: 30px 10px;
   background-color: var(--color-secondary);
-  box-shadow: 0px 0px 10px var(--color-tertiary);
+  box-shadow: 0px 0px 15px var(--color-tertiary);
 }
   
 .myphoto {
@@ -36,7 +36,7 @@
 
 .container__info span{
   color: var(--color-span);
-  font-size: 16px;
+  font-size: 18px;
   margin-top: -14px;
   margin-bottom: 20px;
 }
@@ -52,13 +52,30 @@
 }
 
 .container__info--p a{
-  color: var(--color-tertiary);
-  font-weight: bold;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
   font-size: 18px;
 }
 
-.container__info--p a:hover {
-  color: var(--color-tertiary-dark);
+.container__icon-text{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons{
+  color: white;
+  height: 20px;
+}
+
+.iconLinkedIn{
+  padding-right: 10px;
+}
+
+.container__icon-text:hover .iconLinkedIn, .container__icon-text:hover .container__info--p a{
+  color: var(--color-tertiary);
 }
 
 .container__info--cont a:hover{
@@ -72,7 +89,7 @@ hr {
   
 .container__info--text{
   font-size: 16px;
-  padding: 0px 30px;
+  padding: 0px 10px;
   text-decoration: none;
   color: white;
 }

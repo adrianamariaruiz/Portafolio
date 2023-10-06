@@ -4,7 +4,7 @@ export const Body = () => {
   return (
     <main className="container__body">
       <section className="container__academy">
-        <h1>FRONTEND WEB DEVELOPER</h1>
+        <h1>DESARROLLADORA FRONTEND</h1>
 
         <h2>Experiencia laboral</h2>
 
@@ -66,7 +66,25 @@ export const Body = () => {
           <br />
           <p>
             Los fundamentos de las bases de datos, donde aprendí la creación de
-            tablas y consultas.
+            tablas y consultas de datos.
+          </p>
+        </div>
+        <hr />
+
+        <div>
+          <h4>Analisis de datos</h4>
+          <a
+            href="https://www.credential.net/47192a9e-3a35-41d5-a612-299b9c8dbfe9#gs.6m3096"
+            target="_blank"
+            rel="noreferrer"
+            className="projects__links"
+          >
+            Laboratoria+
+          </a>
+          <p>Julio 2023</p>
+          <br />
+          <p>
+            Manejo y visualización de datos (SQL, Power BI)
           </p>
         </div>
         <hr />

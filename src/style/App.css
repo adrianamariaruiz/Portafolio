@@ -17,8 +17,7 @@
   width: 100%;
   height: auto;
   padding: 20px 0px 50px;
-  border: solid 1px rgb(209, 209, 209, 0.5);
-  box-shadow: 0px 0px 10px var(--color-tertiary);
+  box-shadow: 0px 0px 15px var(--color-tertiary);
   margin-left: 20px;
   border-radius: 5px;
   display: flex;
@@ -49,7 +48,7 @@ h4 {
 }
 
 .linkText {
-  color: var(--color-tertiary);
+  color: white;
   text-decoration: none;
 }
 
