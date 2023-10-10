@@ -29,7 +29,7 @@ export const Sidebar = () => {
         <p className="container__info--p"> Celular </p>
         <div className="container__icon-text">
           <FontAwesomeIcon icon={faMobileScreen} className="icons"/>
-          <p className="container__info--text"> (+57) 300 391 6258 </p>
+          <p className="container__info--text"> (+57) 320 368 2218 </p>
         </div>
 
         <hr />
