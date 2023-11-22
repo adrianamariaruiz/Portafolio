@@ -1,4 +1,4 @@
-# CV Adriana Ruiz
+# Portafolio Adriana Ruiz
 
 Para visualizar de click en mi [Portafolio](https://cv-adriana-ruiz.netlify.app/).
 
