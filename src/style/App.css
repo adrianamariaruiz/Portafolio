@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Shadows+Into+Light&display=swap");
 
+/* Mobile */
 .App {
   width: 100%;
   height: auto;
@@ -14,11 +15,10 @@
 /* Body section */
 .container__body {
   color: white;
-  width: 100%;
+  width: 95%;
   height: auto;
-  padding: 20px 0px 50px;
+  padding: 30px 10px;
   box-shadow: 0px 0px 15px var(--color-tertiary);
-  margin-left: 20px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -33,7 +33,7 @@
 
 .container__academy h1 {
   color: var(--color-tertiary);
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -71,27 +71,22 @@ h4 {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 1024px) {
+/* Tablet */
+@media screen and (min-width: 768px){
   .container__body {
-    padding: 50px 0px;
-  }
-
-  .container__academy {
+    padding: 20px 10px;
     width: 95%;
-    padding: 0px 5px;
   }
-}
-
-@media screen and (max-width: 425px) {
-  .container__body {
-    margin: 10px 0px;
-  }
-
-  .container__academy h1 {
+  .container__academy h2{
     font-size: 30px;
   }
+}
 
-  .container__body ul {
-    padding-left: 18px;
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .container__body {
+    margin: 0px;
   }
 }
+
+

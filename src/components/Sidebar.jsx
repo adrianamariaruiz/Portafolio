@@ -1,7 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLanguage, faMobileScreen } from "@fortawesome/free-solid-svg-icons";
-import {faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import {faLinkedin, faSquareGithub} from "@fortawesome/free-brands-svg-icons";
+
 
 import myphoto from "../imagen/myphoto.png";
 
@@ -19,10 +20,9 @@ export const Sidebar = () => {
         <hr />
 
         <p className="container__info--p">Sobre mi</p>
-        <p className="container__info--text">
-          Soy desarrolladora frontend,
-          perseverante, autodidacta, recursiva y me gusta estar en constante aprendizaje.
-          Sé trabajar en equipo con metodología SCRUM 
+        <p className="container__info--text about__me">
+          Soy desarrolladora frontend egresada del bootcamp de Laboratoria, tengo experiencia realizando proyectos con React, y gracias a Laboratoria y a las experiencias laborales, he aprendido a trabajar en equipo, tener una comunicación asertiva y a ser una personsa perseverante, autodidacta y constante. Me gusta estar actualizada y puedo adaptarme facilmente a lo que requiera la empresa. 
+          Me encanta realizar el proceso de maquetación de páginas web responsivas con la interacción entre el cliente y la web.
         </p>
         <hr />
 
@@ -38,6 +38,14 @@ export const Sidebar = () => {
           <FontAwesomeIcon icon={faLinkedin} className="icons iconLinkedIn"/>
           <p className="container__info--p">
             <a href="https://www.linkedin.com/in/adriana-maria-ruiz/">LinkedIn</a>
+          </p>
+        </div>
+        <hr />
+
+        <div className="container__icon-text">
+          <FontAwesomeIcon icon={faSquareGithub} className="icons iconLinkedIn"/>
+          <p className="container__info--p">
+            <a href="https://github.com/adrianamariaruiz">GitHub</a>
           </p>
         </div>
         <hr />
