@@ -10,10 +10,13 @@ export const Body = () => {
 
         <div>
           <h4>Freelance</h4>
-          <p>Agosto 2023 - Septiembre 2023</p>
+          <p>Agosto 2023 - Actualidad</p>
           <p>Desarrolladora Frontend</p>
           <p>
-            Desarrollé la maquetación de la landing page y diferentes componentes usando SvelteKit y Tailwind.
+            Desarrollé la maquetación de la landing page y diferentes
+            componentes usando SvelteKit y Tailwind. Colaboré en la realización
+            de un proyecto usando React, Java Springboot y PostgreSQL. Colaboro
+            en un proyecto usando Next, TypeScript, Material UI, GraphQL.
           </p>
           <span>Colombia</span>
         </div>
@@ -54,9 +57,39 @@ export const Body = () => {
           </a>
           <p>Noviembre 2023</p>
           <br />
-          <p>
-            Figma: Tecnicas avanzadas de diseño
-          </p>
+          <p>Figma: Tecnicas avanzadas de diseño</p>
+        </div>
+        <hr />
+
+        <div>
+          <h4>Figma</h4>
+          <a
+            href="https://cursos.desafiolatam.com/certificates/dxmcwir6cw"
+            target="_blank"
+            rel="noreferrer"
+            className="projects__links"
+          >
+            Academia Desafio Latam
+          </a>
+          <p>Noviembre 2023</p>
+          <br />
+          <p>Curso - Taller Figma</p>
+        </div>
+        <hr />
+
+        <div>
+          <h4>Java y SpringBoot</h4>
+          <a
+            href="https://www.credential.net/664bbd8b-26e9-47bd-aae4-da277c17bc14#gs.178i2k"
+            target="_blank"
+            rel="noreferrer"
+            className="projects__links"
+          >
+            Laboratoria+
+          </a>
+          <p>Septiembre - Noviembre 2023</p>
+          <br />
+          <p>Java, POO, PostrgreSQL, SpringBoot, JUnit-Testing, Swagger</p>
         </div>
         <hr />
 
@@ -72,9 +105,7 @@ export const Body = () => {
           </a>
           <p>Julio 2023</p>
           <br />
-          <p>
-            Manejo y visualización de datos (SQL, Power BI)
-          </p>
+          <p>Manejo y visualización de datos (SQL, Power BI)</p>
         </div>
         <hr />
 

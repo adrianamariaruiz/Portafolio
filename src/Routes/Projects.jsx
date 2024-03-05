@@ -1,6 +1,5 @@
 import React from "react";
 import { Navbar } from "../components/Navbar";
-import { Sidebar } from "../components/Sidebar";
 import gifExpertApp from "../imagen/gifExpertApp.jpg";
 import smoothieApp from "../imagen/smoothieApp.jpg";
 import apiPaises from "../imagen/apiPaises.jpg";
@@ -13,526 +12,193 @@ import labNotes from "../imagen/labNotes.jpg";
 import todoApp from "../imagen/todoApp.jpg";
 import triqui from "../imagen/triqui.jpg";
 import appRickMorty from "../imagen/appRickMorty.png";
+import ProjectsCard from "../components/ProjectsCard";
 
 const Projects = () => {
+  const jsCssReactGql = [
+    "Lenguajes Usados",
+    "JavaScript",
+    "CSS",
+    "React",
+    "GraphQL",
+  ];
+
+  const jsCssTailwindReact = [
+    "Lenguajes Usados",
+    "JavaScript",
+    "CSS",
+    "Tailwind",
+    "React",
+  ];
+  const jsCssTailwindReactFirebase = [
+    "Lenguajes Usados",
+    "JavaScript",
+    "CSS",
+    "Tailwind",
+    "React",
+    "Firebase",
+  ];
+
+  const jsvanillaCss = ["Lenguajes Usados", "JavaScript vanilla", "CSS"];
+
+  const jsVanillaCssFirebase = [
+    "Lenguajes Usados",
+    "JavaScript vanilla",
+    "CSS",
+    "Firebase",
+  ];
+
+  const jsReactCss = ["Lenguajes Usados", "JavaScript", "CSS", "React"];
+
   return (
     <>
       <div className="App">
         <Navbar />
         <div className="container__sidebar--body">
-          <Sidebar />
-
           <section className="container__body">
             <div className="container__academy">
               <h2>Mis proyectos</h2>
               <nav>
                 <div className="list__projects">
                   {/* App Rick and Morty */}
-                  <div className="list__projects--cards">
-                    <h3>App Rick and Morty</h3>
-                    <div className="container__imagesProjects">
-                      <a
-                        href="https://app-rick-and-morty-graphql.netlify.app/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img
-                          src={appRickMorty}
-                          alt="app-rick-morty"
-                          className="imagesProjects"
-                        />
-                      </a>
-                      <div className="list__projects--languages">
-                        <p>Lenguajes Usados</p>
-                        <p>JavaScript</p>
-                        <p>CSS</p>
-                        <p>React</p>
-                        <p>GraphQL</p>
-                      </div>
-                    </div>
-                    <div className="container__repo--links">
-                      <a
-                        href="https://github.com/adrianamariaruiz/app-rick-and-morty-graphql"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        GitHub
-                      </a>
-                      <a
-                        href="https://app-rick-and-morty-graphql.netlify.app/"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        Web
-                      </a>
-                    </div>
-                  </div>
+                  <ProjectsCard
+                    title={"App Rick and Morty"}
+                    url={"https://app-rick-and-morty-graphql.netlify.app/"}
+                    cardImage={appRickMorty}
+                    urlRepo={
+                      "https://github.com/adrianamariaruiz/app-rick-and-morty-graphql"
+                    }
+                    altImage={"app-rick-morty"}
+                    languages={jsCssReactGql}
+                  />
 
                   {/* Juego-triqui */}
-                  <div className="list__projects--cards">
-                    <h3>Juego-triqui</h3>
-                    <div className="container__imagesProjects">
-                      <a
-                        href="https://juega-triqui.netlify.app/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img
-                          src={triqui}
-                          alt="Juego-triqui"
-                          className="imagesProjects"
-                        />
-                      </a>
-                      <div className="list__projects--languages">
-                        <p>Lenguajes Usados</p>
-                        <p>JavaScript</p>
-                        <p>CSS</p>
-                        <p>React</p>
-                      </div>
-                    </div>
-                    <div className="container__repo--links">
-                      <a
-                        href="https://github.com/adrianamariaruiz/juego-triqui"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        GitHub
-                      </a>
-                      <a
-                        href="https://juega-triqui.netlify.app/"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        Web
-                      </a>
-                    </div>
-                  </div>
+                  <ProjectsCard
+                    title={"Juego-triqui"}
+                    url={"https://juega-triqui.netlify.app/"}
+                    cardImage={triqui}
+                    altImage={"Juego-triqui"}
+                    urlRepo={"https://github.com/adrianamariaruiz/juego-triqui"}
+                    languages={jsReactCss}
+                  />
 
                   {/* TodoApp */}
-                  <div className="list__projects--cards">
-                    <h3>Todo-app</h3>
-                    <div className="container__imagesProjects">
-                      <a
-                        href="https://todo-app-react-tailwind.netlify.app/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img
-                          src={todoApp}
-                          alt="Todo-app"
-                          className="imagesProjects"
-                        />
-                      </a>
-                      <div className="list__projects--languages">
-                        <p>Lenguajes Usados</p>
-                        <p>JavaScript</p>
-                        <p>CSS</p>
-                        <p>Tailwind</p>
-                        <p>React</p>
-                      </div>
-                    </div>
-                    <div className="container__repo--links">
-                      <a
-                        href="https://github.com/adrianamariaruiz/Todo-app"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        GitHub
-                      </a>
-                      <a
-                        href="https://todo-app-react-tailwind.netlify.app/"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        Web
-                      </a>
-                    </div>
-                  </div>
+                  <ProjectsCard
+                    title={"Todo app"}
+                    url={"https://todo-app-react-tailwind.netlify.app/"}
+                    cardImage={todoApp}
+                    altImage={"Todo-app"}
+                    urlRepo={"https://github.com/adrianamariaruiz/Todo-app"}
+                    languages={jsCssTailwindReact}
+                  />
 
                   {/* LabNotes */}
-                  <div className="list__projects--cards">
-                    <h3>Lab-notes</h3>
-                    <div className="container__imagesProjects">
-                      <a
-                        href="https://lab-notes-156fc.web.app/login"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img
-                          src={labNotes}
-                          alt="Lab-notes"
-                          className="imagesProjects"
-                        />
-                      </a>
-                      <div className="list__projects--languages">
-                        <p>Lenguajes Usados</p>
-                        <p>JavaScript</p>
-                        <p>CSS</p>
-                        <p>Tailwind</p>
-                        <p>React</p>
-                        <p>Firebase</p>
-                      </div>
-                    </div>
-                    <div className="container__repo--links">
-                      <a
-                        href="https://github.com/adrianamariaruiz/lab-notes"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        GitHub
-                      </a>
-                      <a
-                        href="https://lab-notes-156fc.web.app/login"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        Web
-                      </a>
-                    </div>
-                  </div>
+                  <ProjectsCard
+                    title={"Lab notes"}
+                    url={"https://lab-notes-156fc.web.app/login"}
+                    cardImage={labNotes}
+                    altImage={"Lab-notes"}
+                    urlRepo={"https://github.com/adrianamariaruiz/lab-notes"}
+                    languages={jsCssTailwindReactFirebase}
+                  />
 
                   {/* Movie-api */}
-                  <div className="list__projects--cards">
-                    <h3>Movie-api</h3>
-                    <div className="container__imagesProjects">
-                      <a
-                        href="https://flourishing-truffle-4a186a.netlify.app/home"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img
-                          src={movieApp}
-                          alt="Movie-api"
-                          className="imagesProjects"
-                          height="200"
-                        />
-                      </a>
-                      <div className="list__projects--languages">
-                        <p>Lenguajes Usados</p>
-                        <p>JavaScript</p>
-                        <p>CSS</p>
-                        <p>React</p>
-                      </div>
-                    </div>
-                    <div className="container__repo--links">
-                      <a
-                        href="https://github.com/adrianamariaruiz/movie-api"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        GitHub
-                      </a>
-                      <a
-                        href="https://flourishing-truffle-4a186a.netlify.app/home"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        Web
-                      </a>
-                    </div>
-                  </div>
+                  <ProjectsCard
+                    title={"Movie app"}
+                    url={"https://flourishing-truffle-4a186a.netlify.app/"}
+                    cardImage={movieApp}
+                    altImage={"Movie-api"}
+                    urlRepo={"https://github.com/adrianamariaruiz/movie-api"}
+                    languages={jsReactCss}
+                  />
 
                   {/* Burguer-queen-api-client */}
-                  <div className="list__projects--cards">
-                    <h3>Burger-queen-api-client</h3>
-                    <div className="container__imagesProjects">
-                      <a
-                        href="https://github.com/adrianamariaruiz/BOG005-burger-queen-api-client"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img
-                          src={burgerQueen}
-                          alt="Burger-queen-api-client"
-                          className="imagesProjects"
-                        />
-                      </a>
-                      <div className="list__projects--languages">
-                        <p>Lenguajes Usados</p>
-                        <p>JavaScript</p>
-                        <p>CSS</p>
-                        <p>React</p>
-                      </div>
-                    </div>
-                    <div className="container__repo--links">
-                      <a
-                        href="https://github.com/adrianamariaruiz/BOG005-burger-queen-api-client"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        GitHub
-                      </a>
-                      <a
-                        href="https://burger-queen-zeta.vercel.app/"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        Web
-                      </a>
-                    </div>
-                  </div>
+                  <ProjectsCard
+                    title={"Burger queen"}
+                    url={"https://burger-queen-zeta.vercel.app/"}
+                    cardImage={burgerQueen}
+                    altImage={"Burger-queen"}
+                    urlRepo={
+                      "https://github.com/adrianamariaruiz/BOG005-burger-queen-api-client"
+                    }
+                    languages={jsReactCss}
+                  />
 
                   {/* data-lover */}
-                  <div className="list__projects--cards">
-                    <h3>data-lover</h3>
-                    <div className="container__imagesProjects">
-                      <a
-                        href="https://adrianamariaruiz.github.io/BOG005-data-lovers/src/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img
-                          src={dataLover}
-                          alt="data-lover"
-                          className="imagesProjects"
-                        />
-                      </a>
-                      <div className="list__projects--languages">
-                        <p>Lenguajes Usados</p>
-                        <p>JavaScript Vanilla</p>
-                        <p>CSS</p>
-                      </div>
-                    </div>
-                    <div className="container__repo--links">
-                      <a
-                        href="https://github.com/adrianamariaruiz/BOG005-data-lovers"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        GitHub
-                      </a>
-                      <a
-                        href="https://adrianamariaruiz.github.io/BOG005-data-lovers/src/"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        Web
-                      </a>
-                    </div>
-                  </div>
+                  <ProjectsCard
+                    title={"Data lover"}
+                    url={
+                      "https://adrianamariaruiz.github.io/BOG005-data-lovers/src/"
+                    }
+                    cardImage={dataLover}
+                    altImage={"data-lover"}
+                    urlRepo={
+                      "https://github.com/adrianamariaruiz/BOG005-data-lovers"
+                    }
+                    languages={jsvanillaCss}
+                  />
 
                   {/* Social Network */}
-                  <div className="list__projects--cards">
-                    <h3>social-network</h3>
-                    <div className="container__imagesProjects">
-                      <a
-                        href="https://socialnetwork-13.firebaseapp.com/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img
-                          src={socialNetwork}
-                          alt="social-network"
-                          className="imagesProjects"
-                        />
-                      </a>
-                      <div className="list__projects--languages">
-                        <p>Lenguajes Usados</p>
-                        <p>JavaScript Vanilla</p>
-                        <p>CSS</p>
-                        <p>Firebase</p>
-                      </div>
-                    </div>
-                    <div className="container__repo--links">
-                      <a
-                        href="https://github.com/adrianamariaruiz/BOG005-social-network"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        GitHub
-                      </a>
-                      <a
-                        href="https://socialnetwork-13.firebaseapp.com/"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        Web
-                      </a>
-                    </div>
-                  </div>
+                  <ProjectsCard
+                    title={"Social network"}
+                    url={"https://socialnetwork-13.firebaseapp.com/"}
+                    cardImage={socialNetwork}
+                    altImage={"socialNetwork"}
+                    urlRepo={
+                      "https://github.com/adrianamariaruiz/BOG005-social-network"
+                    }
+                    languages={jsVanillaCssFirebase}
+                  />
 
                   {/* Card-validation */}
-                  <div className="list__projects--cards">
-                    <h3>card-validation</h3>
-                    <div className="container__imagesProjects">
-                      <a
-                        href="https://adrianamariaruiz.github.io/card-validation.github.io/src/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img
-                          src={cardValidation}
-                          alt="card-validation"
-                          className="imagesProjects"
-                        />
-                      </a>
-                      <div className="list__projects--languages">
-                        <p>Lenguajes Usados</p>
-                        <p>JavaScript Vanilla</p>
-                        <p>CSS</p>
-                      </div>
-                    </div>
-                    <div className="container__repo--links">
-                      <a
-                        href="https://github.com/adrianamariaruiz/card-validation.github.io"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        GitHub
-                      </a>
-                      <a
-                        href="https://adrianamariaruiz.github.io/card-validation.github.io/src/"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        Web
-                      </a>
-                    </div>
-                  </div>
+                  <ProjectsCard
+                    title={"Card validation"}
+                    url={
+                      "https://adrianamariaruiz.github.io/card-validation.github.io/src/"
+                    }
+                    cardImage={cardValidation}
+                    altImage={"card-validation"}
+                    urlRepo={
+                      "https://github.com/adrianamariaruiz/card-validation.github.io"
+                    }
+                    languages={jsvanillaCss}
+                  />
 
                   {/* App api paises */}
-                  <div className="list__projects--cards">
-                    <h3>App_API_paises</h3>
-                    <div className="container__imagesProjects">
-                      <a
-                        href="https://adrianamariaruiz.github.io/App_API_paises/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img
-                          src={apiPaises}
-                          alt="App_API_paises"
-                          className="imagesProjects"
-                        />
-                      </a>
-                      <div className="list__projects--languages">
-                        <p>Lenguajes Usados</p>
-                        <p>JavaScript</p>
-                        <p>CSS</p>
-                        <p>React</p>
-                      </div>
-                    </div>
-                    <div className="container__repo--links">
-                      <a
-                        href="https://github.com/adrianamariaruiz/App_API_paises"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        GitHub
-                      </a>
-                      <a
-                        href="https://adrianamariaruiz.github.io/App_API_paises/"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        Web
-                      </a>
-                    </div>
-                  </div>
+                  <ProjectsCard
+                    title={"App API paises"}
+                    url={"https://adrianamariaruiz.github.io/App_API_paises/"}
+                    cardImage={apiPaises}
+                    altImage={"apiPaises"}
+                    urlRepo={
+                      "https://github.com/adrianamariaruiz/App_API_paises"
+                    }
+                    languages={jsReactCss}
+                  />
 
                   {/* Smothie App */}
-                  <div className="list__projects--cards">
-                    <h3>Smoothie-app</h3>
-                    <div className="container__imagesProjects">
-                      <a
-                        href="https://adrianamariaruiz.github.io/smoothie-app/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img
-                          src={smoothieApp}
-                          alt="Smoothie-app"
-                          className="imagesProjects"
-                        />
-                      </a>
-                      <div className="list__projects--languages">
-                        <p>Lenguajes Usados</p>
-                        <p>JavaScript</p>
-                        <p>CSS</p>
-                        <p>React</p>
-                      </div>
-                    </div>
-                    <div className="container__repo--links">
-                      <a
-                        href="https://github.com/adrianamariaruiz/smoothie-app"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        GitHub
-                      </a>
-                      <a
-                        href="https://adrianamariaruiz.github.io/smoothie-app/"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        Web
-                      </a>
-                    </div>
-                  </div>
+                  <ProjectsCard
+                    title={"Smoothie app"}
+                    url={"https://adrianamariaruiz.github.io/smoothie-app/"}
+                    cardImage={smoothieApp}
+                    altImage={"smoothieApp"}
+                    urlRepo={"https://github.com/adrianamariaruiz/smoothie-app"}
+                    languages={jsReactCss}
+                  />
 
                   {/* gifExpertApp */}
-                  <div className="list__projects--cards">
-                    <h3>gifExpertApp</h3>
-                    <div className="container__imagesProjects">
-                      <a
-                        href="https://adrianamariaruiz.github.io/react-gifexpertapp/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img
-                          src={gifExpertApp}
-                          alt="gifExpertApp"
-                          className="imagesProjects"
-                        />
-                      </a>
-                      <div className="list__projects--languages">
-                        <p>Lenguajes Usados</p>
-                        <p>JavaScript</p>
-                        <p>CSS</p>
-                        <p>React</p>
-                      </div>
-                    </div>
-                    <div className="container__repo--links">
-                      <a
-                        href="https://github.com/adrianamariaruiz/react-gifexpertapp"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        GitHub
-                      </a>
-                      <a
-                        href="https://adrianamariaruiz.github.io/react-gifexpertapp/"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="repo__links"
-                      >
-                        Web
-                      </a>
-                    </div>
-                  </div>
+                  <ProjectsCard
+                    title={"Gif ExpertApp"}
+                    url={
+                      "https://adrianamariaruiz.github.io/react-gifexpertapp/"
+                    }
+                    cardImage={gifExpertApp}
+                    altImage={"gifExpertApp"}
+                    urlRepo={
+                      "https://github.com/adrianamariaruiz/react-gifexpertapp"
+                    }
+                    languages={jsReactCss}
+                  />
                 </div>
               </nav>
             </div>
