@@ -38,8 +38,8 @@ export const Body = () => {
           <h4>Arte-Laser corte y grabado</h4>
           <p>julio 2017 - marzo 2019</p>
           <p>
-            Realicé cotizaciones de los trabajos, diseño gráfico y manejo de
-            maquinaria laser
+            Realicé cotizaciones de los trabajos, diseño gráfico con Adobe
+            Illustrator y CorelDRAW.
           </p>
           <span>Medellin-Colombia</span>
         </div>

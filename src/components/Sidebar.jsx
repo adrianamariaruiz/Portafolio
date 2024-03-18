@@ -7,18 +7,21 @@ import myphoto from "../imagen/myphoto.png";
 
 export const Sidebar = () => {
   const knowledge = [
-    "Javascript",
-    "HTML",
-    "CSS",
-    "Tailwind",
-    "TypeScript",
     "React.js",
-    "Node.js",
-    "Firebase",
-    "MySQL",
-    "GraphQL",
+    "TypeScript",
+    "Javascript",
+    "Tailwind CSS",
+    "Next.js",
+    "SvelteKit",
     "VTEX IO",
-    "GitHub",
+    "Node.js",
+    "Java",
+    "Springboot",
+    "GraphQL",
+    "NoSQL",
+    "SQL",
+    "PostgreSQL",
+    "Git",
     "SCRUM",
   ];
 
@@ -48,7 +51,7 @@ export const Sidebar = () => {
         <p className="container__info--p"> Celular </p>
         <div className="container__icon-text">
           <FontAwesomeIcon icon={faMobileScreen} className="icons" />
-          <p className="container__info--text"> (+57) 320 368 2218 </p>
+          <p className="container__info--text"> (+57) 320 368 22 18 </p>
         </div>
 
         <hr />
@@ -109,6 +112,23 @@ export const Sidebar = () => {
               Nivel B2: Listening & Reading
             </a>
             <p className="container__info--text">Nivel B1: Speaking</p>
+          </div>
+        </div>
+
+        <hr />
+        <div className="englishDiv">
+          <p className="container__info--p" id="prueba">
+            Soft Skills
+          </p>
+          <div className="container__info--cont">
+            <ul className="list__softskills">
+              <li>Trabajo en equipo</li>
+              <li>Adaptación al cambio</li>
+              <li>Resiliencia</li>
+              <li>Responsable</li>
+              <li>Autodidacta</li>
+              <li>Comunicación asertiva</li>
+            </ul>
           </div>
         </div>
       </div>
