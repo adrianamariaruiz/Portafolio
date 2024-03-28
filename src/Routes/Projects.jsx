@@ -12,6 +12,7 @@ import labNotes from "../imagen/labNotes.jpg";
 import todoApp from "../imagen/todoApp.jpg";
 import triqui from "../imagen/triqui.jpg";
 import appRickMorty from "../imagen/appRickMorty.png";
+import infoapp from "../imagen/infoapp.png";
 import ProjectsCard from "../components/ProjectsCard";
 
 const Projects = () => {
@@ -21,6 +22,13 @@ const Projects = () => {
     "CSS",
     "React",
     "GraphQL",
+  ];
+  const jsCssReactBts = [
+    "Lenguajes Usados",
+    "JavaScript",
+    "CSS",
+    "React",
+    "Bootstrap",
   ];
 
   const jsCssTailwindReact = [
@@ -60,6 +68,16 @@ const Projects = () => {
               <h2>Mis proyectos</h2>
               <nav>
                 <div className="list__projects">
+                  {/* InfoApp */}
+                  <ProjectsCard
+                    title={"Info App"}
+                    url={"https://infoapp-table.netlify.app/"}
+                    cardImage={infoapp}
+                    urlRepo={"https://github.com/adrianamariaruiz/infoapp"}
+                    altImage={"info-app"}
+                    languages={jsCssReactBts}
+                  />
+
                   {/* App Rick and Morty */}
                   <ProjectsCard
                     title={"App Rick and Morty"}
