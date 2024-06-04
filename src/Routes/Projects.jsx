@@ -13,51 +13,20 @@ import todoApp from "../imagen/todoApp.jpg";
 import triqui from "../imagen/triqui.jpg";
 import appRickMorty from "../imagen/appRickMorty.png";
 import infoapp from "../imagen/infoapp.png";
+import paymentsApp from "../imagen/paymentsApp.png";
 import ProjectsCard from "../components/ProjectsCard";
+import {
+  jsCssReactBts,
+  jsCssReactGql,
+  jsCssTailwindReact,
+  jsCssTailwindReactFirebase,
+  jsReactCss,
+  jsVanillaCssFirebase,
+  jsvanillaCss,
+  paymentAppLanguages,
+} from "../helpers/languages";
 
 const Projects = () => {
-  const jsCssReactGql = [
-    "Lenguajes Usados",
-    "JavaScript",
-    "CSS",
-    "React",
-    "GraphQL",
-  ];
-  const jsCssReactBts = [
-    "Lenguajes Usados",
-    "JavaScript",
-    "CSS",
-    "React",
-    "Bootstrap",
-  ];
-
-  const jsCssTailwindReact = [
-    "Lenguajes Usados",
-    "JavaScript",
-    "CSS",
-    "Tailwind",
-    "React",
-  ];
-  const jsCssTailwindReactFirebase = [
-    "Lenguajes Usados",
-    "JavaScript",
-    "CSS",
-    "Tailwind",
-    "React",
-    "Firebase",
-  ];
-
-  const jsvanillaCss = ["Lenguajes Usados", "JavaScript vanilla", "CSS"];
-
-  const jsVanillaCssFirebase = [
-    "Lenguajes Usados",
-    "JavaScript vanilla",
-    "CSS",
-    "Firebase",
-  ];
-
-  const jsReactCss = ["Lenguajes Usados", "JavaScript", "CSS", "React"];
-
   return (
     <>
       <div className="App">
@@ -68,6 +37,15 @@ const Projects = () => {
               <h2>Mis proyectos</h2>
               <nav>
                 <div className="list__projects">
+                  {/* PaymentsApp */}
+                  <ProjectsCard
+                    title={"Payments App"}
+                    url={"https://pagos-app.vercel.app/"}
+                    cardImage={paymentsApp}
+                    urlRepo={"https://github.com/adrianamariaruiz/pagosApp"}
+                    altImage={"payments-app"}
+                    languages={paymentAppLanguages}
+                  />
                   {/* InfoApp */}
                   <ProjectsCard
                     title={"Info App"}
