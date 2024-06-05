@@ -37,12 +37,19 @@ export const Sidebar = () => {
 
         <p className="container__info--p">Sobre mi</p>
         <p className="container__info--text about__me">
-          Soy desarrolladora frontend, gracias a las experiencias laborales que
-          he tenido he aprendido a trabajar en equipo, tener una comunicación
-          asertiva y a ser perseverante, autodidacta y constante. Me gusta estar
-          actualizada y puedo adaptarme fácilmente a lo que se requiera en la
-          empresa.
+          Me encanta realizar el proceso de maquetación de páginas web
+          responsivas con la interacción entre el cliente y la web.
         </p>
+        <p className="container__info--text about__me">
+          Gracias a las experiencias laborales que he tenido he aprendido a
+          trabajar en equipo, tener una comunicación asertiva y a ser
+          perseverante, autodidacta y constante.
+        </p>
+        <p className="container__info--text about__me">
+          Me gusta estar actualizada y puedo adaptarme fácilmente a lo que se
+          requiera en la empresa.
+        </p>
+
         <hr />
 
         <p className="container__info--p"> Celular </p>
