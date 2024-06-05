@@ -42,14 +42,6 @@ export const Sidebar = () => {
           asertiva y a ser perseverante, autodidacta y constante. Me gusta estar
           actualizada y puedo adaptarme fácilmente a lo que se requiera en la
           empresa.
-          {/* Soy desarrolladora frontend egresada del bootcamp de Laboratoria,
-          tengo experiencia realizando proyectos con React, y gracias a
-          Laboratoria y a las experiencias laborales, he aprendido a trabajar en
-          equipo, tener una comunicación asertiva y a ser una personsa
-          perseverante, autodidacta y constante. Me gusta estar actualizada y
-          puedo adaptarme facilmente a lo que requiera la empresa. Me encanta
-          realizar el proceso de maquetación de páginas web responsivas con la
-          interacción entre el cliente y la web. */}
         </p>
         <hr />
 
