@@ -3,6 +3,7 @@
 :root {
   --color-primary: rgb(0, 0, 0);
   --color-secondary: rgb(34, 35, 37);
+  --color-secondary-disabled: rgba(34, 35, 37, 0.658);
   --color-tertiary: rgb(253, 106, 155);
   --color-tertiary-dark: rgb(253, 3, 87);
   --color-span: #fa8eb28e;

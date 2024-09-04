@@ -38,14 +38,16 @@ const ProjectsCard = ({
           >
             GitHub
           </a>
-          <a
-            href={url}
-            target="_blank"
-            rel="noreferrer"
-            className="repo__links"
-          >
-            Web
-          </a>
+          {url && (
+            <a
+              href={url}
+              target="_blank"
+              rel="noreferrer"
+              className="repo__links"
+            >
+              Web
+            </a>
+          )}
         </div>
       </div>
     </>

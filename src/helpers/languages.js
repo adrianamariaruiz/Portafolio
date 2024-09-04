@@ -28,6 +28,7 @@ export const jsCssTailwindReactFirebase = [
   "React",
   "Firebase",
 ];
+export const ecommerceLanguajes = ["Lenguajes Usados", "Tailwind", "Next", "Zustand", "Zod"];
 
 export const jsvanillaCss = ["Lenguajes Usados", "JavaScript vanilla", "CSS"];
 
@@ -41,3 +42,6 @@ export const jsVanillaCssFirebase = [
 export const jsReactCss = ["Lenguajes Usados", "JavaScript", "CSS", "React"];
 
 export const paymentAppLanguages = ["Lenguajes Usados", "Tailwind", "React", "Zustand", "Zod"]
+
+export const angularAppLanguajes = ["Lenguajes Usados", "JavaScript", "CSS", "Angular"];
+export const vueAppLanguajes = ["Lenguajes Usados", "JavaScript", "CSS", "Vue.js"];
