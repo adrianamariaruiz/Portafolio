@@ -11,7 +11,7 @@ export const Body = () => {
         <div>
           <h4>Capgemini</h4>
           <p>Octubre 2024 - Actualidad</p>
-          <p>Desarrolladora Frontend</p>
+          <p>Desarrolladora Junior</p>
           <span>Colombia</span>
         </div>
         <hr />
