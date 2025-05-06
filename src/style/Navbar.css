@@ -1,4 +1,3 @@
-/* Mobile */
 .container__navbar {
   width: auto;
   height: 80px;
@@ -11,6 +10,46 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: relative;
+}
+
+.link_projects::before {
+  content: "Da click aquí para ver mis proyectos";
+  position: absolute;
+  bottom: -13px;
+  left: 60%;
+  transform: translateX(-50%);
+  background-color: var(--color-span);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  font-size: 0.75rem;
+  font-weight: lighter;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+}
+
+.link_projects::after {
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  left: 70%;
+  transform: translateX(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent transparent var(--color-span) transparent;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.link_projects:hover::before,
+.link_projects:hover::after {
+  opacity: 1;
 }
   
 .navbarLink:hover{
@@ -21,10 +60,15 @@
   color: var(--color-tertiary);
 }
 
-/* Tablet */
 @media screen and (min-width: 768px){
   .container__navbar{
     margin: 10px 20px;
     font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .link_projects::before {
+    left: 70%;
   }
 }

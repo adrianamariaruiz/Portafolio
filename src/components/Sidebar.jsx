@@ -1,9 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLanguage, faMobileScreen } from "@fortawesome/free-solid-svg-icons";
+import { faLanguage } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 
 import myphoto from "../imagen/myphoto.png";
+import ContactForm from "./ContactForm";
 
 export const Sidebar = () => {
   const knowledge = [
@@ -52,14 +53,6 @@ export const Sidebar = () => {
 
         <hr />
 
-        <p className="container__info--p"> Celular </p>
-        <div className="container__icon-text">
-          <FontAwesomeIcon icon={faMobileScreen} className="icons" />
-          <p className="container__info--text"> (+57) 320 368 22 18 </p>
-        </div>
-
-        <hr />
-
         <div className="container__icon-text">
           <FontAwesomeIcon icon={faLinkedin} className="icons iconLinkedIn" />
           <p className="container__info--p">
@@ -78,12 +71,6 @@ export const Sidebar = () => {
           <p className="container__info--p">
             <a href="https://github.com/adrianamariaruiz">GitHub</a>
           </p>
-        </div>
-        <hr />
-
-        <div>
-          <p className="container__info--p"> Correo de contacto</p>
-          <p className="container__info--text">adriannaruiz24@gmail.com</p>
         </div>
         <hr />
 
@@ -135,6 +122,9 @@ export const Sidebar = () => {
             </ul>
           </div>
         </div>
+
+        <hr />
+        <ContactForm />
       </div>
     </div>
   );

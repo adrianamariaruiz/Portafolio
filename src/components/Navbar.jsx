@@ -7,7 +7,7 @@ export const Navbar = () => {
       <NavLink to="/" className="linkText navbarLink">
         CV
       </NavLink>
-      <NavLink to="/projects" className="linkText navbarLink">
+      <NavLink to="/projects" className="linkText navbarLink link_projects">
         Proyectos
       </NavLink>
     </nav>
