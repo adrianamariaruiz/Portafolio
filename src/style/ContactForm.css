@@ -47,11 +47,11 @@
     }
 
     .message__error{
-      width: 100%;
+      width: 95%;
       color: var(--color-tertiary-dark);
       text-align: left;
       margin-bottom: 5px;
-      margin-top: -8px;
+      margin-top: -20px;
     }
 
     .input__cont{
@@ -111,7 +111,7 @@
         border: 2px solid var(--color-tertiary-dark);
 
         & ~ .labelText{
-          color: var(--color-tertiary-dark);
+          color: var(--color-tertiary);
           background-color: var(--color-secondary);
           padding: 4px;
         }
@@ -174,7 +174,7 @@
         outline: none;
 
         & ~ .labelText{
-          color: var(--color-tertiary-dark);
+          color: var(--color-tertiary);
           background-color: var(--color-secondary);
           padding: 0px;
           top: 20px;
@@ -204,7 +204,7 @@
   }
 }
 @media (width >= 1024px){
-  .input__cont{
+  .input__cont, .message__error{
     max-width: 70%;
   }
 }

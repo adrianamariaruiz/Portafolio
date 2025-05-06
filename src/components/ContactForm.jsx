@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { submitForm } from "../helpers/submitForm";
+import Modal from "./Modal";
 
 const ContactForm = () => {
   const [name, setName] = useState("");
@@ -126,7 +127,7 @@ const ContactForm = () => {
         </button>
       </form>
 
-      {/* <Modal open={open} closeModal={closeModal} /> */}
+      <Modal open={open} closeModal={closeModal} />
     </div>
   );
 };

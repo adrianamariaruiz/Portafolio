@@ -5,6 +5,7 @@ import "./style/Navbar.css";
 import "./style/Sidebar.css";
 import "./style/Projects.css";
 import "./style/ContactForm.css";
+import "./style/Modal.css";
 
 import Home from "./Routes/Home";
 import Projects from "./Routes/Projects";
