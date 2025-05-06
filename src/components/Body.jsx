@@ -9,8 +9,16 @@ export const Body = () => {
         <h2>Experiencia laboral</h2>
 
         <div>
+          <h4>Capgemini</h4>
+          <p>Octubre 2024 - Actualidad</p>
+          <p>Desarrolladora Junior</p>
+          <span>Colombia</span>
+        </div>
+        <hr />
+
+        <div>
           <h4>Freelance</h4>
-          <p>Agosto 2023 - Actualidad</p>
+          <p>Agosto 2023 - Septiembre 2024</p>
           <p>Desarrolladora Frontend</p>
           <p>
             Desarrollé la maquetación de la landing page y diferentes
@@ -37,8 +45,9 @@ export const Body = () => {
         <div>
           <h4>Arte-Laser corte y grabado</h4>
           <p>julio 2017 - marzo 2019</p>
+          <p>Auxiliar de diseño gráfico</p>
           <p>
-            Realicé cotizaciones de los trabajos, diseño gráfico con Adobe
+            Apoyé en la sección de diseño gráfico trabajando con Adobe
             Illustrator y CorelDRAW.
           </p>
           <span>Medellin-Colombia</span>
