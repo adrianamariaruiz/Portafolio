@@ -2,6 +2,38 @@
     text-align: center;
 }
 
+ select,
+    ::picker(select){
+        appearance: base-select;
+    }
+
+.select_options{
+    width: 95%;
+    color: white;
+    border-radius:5px;
+    padding: 5px;
+    gap: 2px; 
+    background-color: transparent;
+    border: 1px solid var(--color-tertiary);
+    box-shadow: 2px 2px 5px var(--color-tertiary);
+    background-color: var(--color-secondary);
+    outline: none;
+
+    option{
+        background-color: var(--color-secondary);
+        color: white;
+        transition: background-color 0.8s ease;
+        cursor: pointer;
+
+        &:checked,
+        &:hover{
+            font-weight: bold;
+            color: var(--color-secondary);
+            background-color: var(--color-tertiary);
+        }
+    }
+}
+
 .list__projects{
     width: 100%;
     display: flex;
@@ -10,6 +42,7 @@
     gap: 20px 15px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .list__projects--cards{
@@ -81,6 +114,10 @@
 
 /* Tablet */
 @media screen and (min-width: 768px){
+    .select_options{
+        width: 60%;
+    }
+
     .list__projects--cards{
         height: 450px;
         width: 40%;
@@ -107,6 +144,10 @@
 
 /* Desktop */
 @media screen and (min-width: 1024px){
+    .select_options{
+        width: 40%;
+    }
+
     .list__projects--cards{
         height: 350px;
     }

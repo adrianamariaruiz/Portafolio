@@ -44,4 +44,4 @@ export const jsReactCss = ["Lenguajes Usados", "JavaScript", "CSS", "React"];
 export const paymentAppLanguages = ["Lenguajes Usados", "Tailwind", "React", "Zustand", "Zod"]
 
 export const angularAppLanguajes = ["Lenguajes Usados", "JavaScript", "CSS", "Angular"];
-export const vueAppLanguajes = ["Lenguajes Usados", "JavaScript", "CSS", "Vue.js"];
+export const vueAppLanguajes = ["Lenguajes Usados", "JavaScript", "CSS", "Vue"];
