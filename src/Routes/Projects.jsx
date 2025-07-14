@@ -4,7 +4,7 @@ import { projects } from "../helpers/projects";
 import ProjectsCard from "../components/ProjectsCard";
 
 const Projects = () => {
-  const [selectedLanguage, setSelectedLanguage] = useState("React");
+  const [selectedLanguage, setSelectedLanguage] = useState("Next");
 
   const filterProjects = (language) => {
     const filteredProjects = projects.filter((project) => {
@@ -31,13 +31,13 @@ const Projects = () => {
                   value={selectedLanguage}
                   onChange={(e) => setSelectedLanguage(e.target.value)}
                 >
-                  <option value="React" defaultValue={true}>
-                    React
-                  </option>
                   <option value="JavaScript vanilla">JavaScript vanilla</option>
+                  <option value="React">React.js</option>
+                  <option value="Next" defaultValue={true}>
+                    Next.js
+                  </option>
                   <option value="Angular">Angular</option>
-                  <option value="Vue">Vue</option>
-                  {/* <option value="Java">Java</option> */}
+                  <option value="Java">Java</option>
                 </select>
               </div>
 

@@ -22,6 +22,7 @@ const ProjectsCard = ({
             <img src={cardImage} alt={altImage} className="imagesProjects" />
           </a>
           <div className="list__projects--languages">
+            <p>Lenguajes Usados</p>
             {languages.map((language) => (
               <div key={language}>
                 <p>{language}</p>

@@ -1,44 +1,68 @@
-import { angularAppLanguajes, ecommerceLanguajes, jsCssReactBts, jsCssReactGql, jsCssTailwindReact, jsCssTailwindReactFirebase, jsReactCss, jsvanillaCss, jsVanillaCssFirebase, paymentAppLanguages, vueAppLanguajes } from "./languages";
+import { angularAppLanguajes, aviationLanguajes, ecommerceLanguajes, FleetManagementLanguages, javaLanguages, jsCssReactBts, jsCssReactGql, jsCssTailwindReact, jsReactCss, jsvanillaCss, jsVanillaCssFirebase, paymentAppLanguages } from "./languages";
 import paymentsApp from "../imagen/paymentsApp.png";
 import infoapp from "../imagen/infoapp.png";
 import appRickMorty from "../imagen/appRickMorty.png";
 import triqui from "../imagen/triqui.jpg";
 
-import gifExpertApp from "../imagen/gifExpertApp.jpg";
-import smoothieApp from "../imagen/smoothieApp.jpg";
 import apiPaises from "../imagen/apiPaises.jpg";
-import cardValidation from "../imagen/cardValidation.jpg";
 import dataLover from "../imagen/dataLover.jpg";
 import socialNetwork from "../imagen/socialNetwork.jpg";
 import burgerQueen from "../imagen/burgerQueen.jpg";
 import movieApp from "../imagen/movieApp.jpg";
-import labNotes from "../imagen/labNotes.jpg";
 import todoApp from "../imagen/todoApp.jpg";
 import ecommerce from "../imagen/ecommerce.png";
 import housesApp from "../imagen/housesApp.png";
-import dragonballApp from "../imagen/dragonballApp2.png";
-import pokemonApp from "../imagen/pokemonApp.png";
+// import dragonballApp from "../imagen/dragonballApp2.png";
+// import pokemonApp from "../imagen/pokemonApp.png";
 import templatesServices from "../imagen/templatesServices.png";
 
 export const projects = [
+  // TODO: Agregar Tetris, survey app
   {
-    id: 19,
-    title: "Dragonball App",
+    id: 22,
+    title: "Aviation App",
     url: "",
-    cardImage: dragonballApp,
-    urlRepo: "https://github.com/adrianamariaruiz/dragonball-vue-app",
-    altImage: "dragonball-app",
-    languages: vueAppLanguajes
+    cardImage: "",
+    urlRepo: "https://github.com/adrianamariaruiz/aviation-app",
+    altImage: "En Construcción",
+    languages: aviationLanguajes
   },
   {
-    id: 18,
-    title: "Poke App",
+    id: 21,
+    title: "Backend Templates services",
     url: "",
-    cardImage: pokemonApp,
-    urlRepo: "https://github.com/adrianamariaruiz/vue-pokeApi",
-    altImage: "pokemon-app",
-    languages: vueAppLanguajes
+    cardImage: "",
+    urlRepo: "https://github.com/adrianamariaruiz/back-templates-services",
+    altImage: "Backend templates services",
+    languages: javaLanguages
   },
+  {
+    id: 20,
+    title: "Fleet Management API",
+    url: "",
+    cardImage: "",
+    urlRepo: "https://github.com/adrianamariaruiz/fleet-management-api",
+    altImage: "Fleet Management API",
+    languages: FleetManagementLanguages
+  },
+  // {
+  //   id: 19,
+  //   title: "Dragonball App",
+  //   url: "",
+  //   cardImage: dragonballApp,
+  //   urlRepo: "https://github.com/adrianamariaruiz/dragonball-vue-app",
+  //   altImage: "dragonball-app",
+  //   languages: vueAppLanguajes
+  // },
+  // {
+  //   id: 18,
+  //   title: "Poke App",
+  //   url: "",
+  //   cardImage: pokemonApp,
+  //   urlRepo: "https://github.com/adrianamariaruiz/vue-pokeApi",
+  //   altImage: "pokemon-app",
+  //   languages: vueAppLanguajes
+  // },
   {
     id: 17,
     title: "Templates services",
@@ -111,15 +135,15 @@ export const projects = [
     altImage: "Todo-app",
     languages: jsCssTailwindReact
   },
-  {
-    id: 9,
-    title: "Lab notes",
-    url: "https://lab-notes-156fc.web.app/login",
-    cardImage: labNotes,
-    urlRepo: "https://github.com/adrianamariaruiz/lab-notes",
-    altImage: "Lab-notes",
-    languages: jsCssTailwindReactFirebase
-  },
+  // {
+  //   id: 9,
+  //   title: "Lab notes",
+  //   url: "https://lab-notes-156fc.web.app/login",
+  //   cardImage: labNotes,
+  //   urlRepo: "https://github.com/adrianamariaruiz/lab-notes",
+  //   altImage: "Lab-notes",
+  //   languages: jsCssTailwindReactFirebase
+  // },
   {
     id: 8,
     title: "Movie app",
@@ -157,15 +181,6 @@ export const projects = [
     languages: jsVanillaCssFirebase
   },
   {
-    id: 4,
-    title: "Card validation",
-    url: "https://adrianamariaruiz.github.io/card-validation.github.io/src/",
-    cardImage: cardValidation,
-    urlRepo: "https://github.com/adrianamariaruiz/card-validation.github.io",
-    altImage: "card-validation",
-    languages: jsvanillaCss
-  },
-  {
     id: 3,
     title: "App API paises",
     url: "https://adrianamariaruiz.github.io/App_API_paises/",
@@ -173,23 +188,5 @@ export const projects = [
     urlRepo: "https://adrianamariaruiz.github.io/App_API_paises/",
     altImage: "apiPaises",
     languages: jsReactCss
-  },
-  {
-    id: 2,
-    title: "Smoothie app",
-    url: "https://adrianamariaruiz.github.io/smoothie-app/",
-    cardImage: smoothieApp,
-    urlRepo: "https://github.com/adrianamariaruiz/smoothie-app",
-    altImage: "smoothieApp",
-    languages: jsReactCss
-  },
-  {
-    id: 1,
-    title: "Gif ExpertApp",
-    url: "https://adrianamariaruiz.github.io/react-gifexpertapp/",
-    cardImage: gifExpertApp,
-    urlRepo: "https://github.com/adrianamariaruiz/react-gifexpertapp",
-    altImage: "gifExpertApp",
-    languages: jsReactCss
-  },
+  }
 ];

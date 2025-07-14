@@ -1,47 +1,50 @@
+// Vanilla JavaScript
+export const jsvanillaCss = ["JavaScript vanilla", "CSS"];
+export const jsVanillaCssFirebase = [
+  "JavaScript vanilla",
+  "CSS",
+  "Firebase",
+];
+
+// React.js
 export const jsCssReactGql = [
-  "Lenguajes Usados",
   "JavaScript",
   "CSS",
   "React",
   "GraphQL",
 ];
 export const jsCssReactBts = [
-  "Lenguajes Usados",
   "JavaScript",
   "CSS",
   "React",
   "Bootstrap",
 ];
-
 export const jsCssTailwindReact = [
-  "Lenguajes Usados",
   "JavaScript",
   "CSS",
   "Tailwind",
   "React",
 ];
 export const jsCssTailwindReactFirebase = [
-  "Lenguajes Usados",
   "JavaScript",
   "CSS",
   "Tailwind",
   "React",
   "Firebase",
 ];
-export const ecommerceLanguajes = ["Lenguajes Usados", "Tailwind", "Next", "Zustand", "Zod"];
+export const jsReactCss = ["JavaScript", "CSS", "React"];
+export const paymentAppLanguages = ["Tailwind", "React", "Zustand", "Zod"]
 
-export const jsvanillaCss = ["Lenguajes Usados", "JavaScript vanilla", "CSS"];
+// Next.js
+export const ecommerceLanguajes = ["Tailwind", "Next", "Zustand", "Zod", "PostgresQL", "Prisma", "Docker"];
+export const aviationLanguajes = ["Tailwind", "Next", "Zustand"];
 
-export const jsVanillaCssFirebase = [
-  "Lenguajes Usados",
-  "JavaScript vanilla",
-  "CSS",
-  "Firebase",
-];
+// Java
+export const javaLanguages = ["Java", "Spring WebFlux", "mongoDB"];
+export const FleetManagementLanguages = ["Java", "Spring Boot", "PostgresQL", "JUnit", "Mockito", "Swagger"];
 
-export const jsReactCss = ["Lenguajes Usados", "JavaScript", "CSS", "React"];
+// Angular
+export const angularAppLanguajes = ["JavaScript", "CSS", "Angular"];
 
-export const paymentAppLanguages = ["Lenguajes Usados", "Tailwind", "React", "Zustand", "Zod"]
-
-export const angularAppLanguajes = ["Lenguajes Usados", "JavaScript", "CSS", "Angular"];
-export const vueAppLanguajes = ["Lenguajes Usados", "JavaScript", "CSS", "Vue"];
+// Vue.js
+export const vueAppLanguajes = ["JavaScript", "CSS", "Vue"];

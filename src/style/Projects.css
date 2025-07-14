@@ -90,6 +90,12 @@
     margin: 10px;
 }
 
+.list__projects--languages > p{
+    color: var(--color-tertiary);
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .projects__links{
     text-decoration: none;
     margin-bottom: 10px;
@@ -186,6 +192,7 @@
         box-shadow: none;
         padding: 0px;
         backdrop-filter: blur(15px);
+        background-color: rgba(255, 255, 255, 0.151);
         margin: 0px;
     }
 
@@ -211,10 +218,13 @@
     .list__projects--languages:hover::before, .list__projects--languages:hover::after{
         left: 15px;
     }
-    
-    .list__projects--languages p:first-child{
+
+    .list__projects--languages > p{
         font-size: 20px;
-        text-decoration: underline;
+    }
+    
+    .list__projects--languages div > p{
+        font-size: 18px;
         text-align: center;
     }
     
