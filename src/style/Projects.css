@@ -58,6 +58,14 @@
     position: relative;
 }
 
+.notas{
+    background-color: var(--color-secondary);
+    color: var(--color-tertiary-dark);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
 .container__imagesProjects{
     position: relative;
     width: 100%;

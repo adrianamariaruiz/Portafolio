@@ -47,6 +47,7 @@ const Projects = () => {
                     <ProjectsCard
                       key={card.id}
                       title={card.title}
+                      notas={card.notas}
                       url={card.url}
                       cardImage={card.cardImage}
                       urlRepo={card.urlRepo}

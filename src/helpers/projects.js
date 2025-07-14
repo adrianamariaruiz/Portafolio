@@ -15,14 +15,16 @@ import housesApp from "../imagen/housesApp.png";
 // import dragonballApp from "../imagen/dragonballApp2.png";
 // import pokemonApp from "../imagen/pokemonApp.png";
 import templatesServices from "../imagen/templatesServices.png";
+import aviation from "../imagen/aviationStack.png";
 
 export const projects = [
   // TODO: Agregar Tetris, survey app
   {
     id: 22,
     title: "Aviation App",
+    notas: "En Construcción",
     url: "",
-    cardImage: "",
+    cardImage: aviation,
     urlRepo: "https://github.com/adrianamariaruiz/aviation-app",
     altImage: "En Construcción",
     languages: aviationLanguajes

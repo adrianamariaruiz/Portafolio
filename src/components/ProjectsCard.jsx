@@ -1,7 +1,6 @@
-import React from "react";
-
 const ProjectsCard = ({
   title,
+  notas,
   url,
   cardImage,
   urlRepo,
@@ -12,6 +11,7 @@ const ProjectsCard = ({
     <>
       <div className="list__projects--cards">
         <h3>{title}</h3>
+        {notas && <p className="notas">{notas}</p>}
         <div className="container__imagesProjects">
           <a
             href={url}

@@ -100,9 +100,8 @@ export const Sidebar = () => {
               rel="noreferrer"
               className="container__info--text"
             >
-              Nivel B2: Listening & Reading
+              Nivel B2
             </a>
-            <p className="container__info--text">Nivel B1: Speaking</p>
           </div>
         </div>
 
